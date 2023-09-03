@@ -1,0 +1,32 @@
+{
+  "name": "discord_gif_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolffen/discord_gif_bot.git"
+  },
+  "keywords": [
+    "discord-bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wolffen/discord_gif_bot/issues"
+  },
+  "homepage": "https://github.com/Wolffen/discord_gif_bot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "eslint": "^8.48.0",
+    "nodemon": "^3.0.1"
+  }
+}
